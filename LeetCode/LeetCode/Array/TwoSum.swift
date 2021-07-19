@@ -12,26 +12,28 @@
  按任意顺序返回答案。
  */
 
-
-func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-    var numMap = [Int: Int]()
-    for (index, value) in nums.enumerated() {
-        let match = target - value
-        if numMap.keys.contains(match) && numMap[match] != index {
-            return [numMap[match]!, index]
+class TwoSum {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        var numMap = [Int: Int]()
+        for (index, value) in nums.enumerated() {
+            let match = target - value
+            if numMap.keys.contains(match) && numMap[match] != index {
+                return [numMap[match]!, index]
+            }
+            numMap[value] = index
         }
-        numMap[value] = index
+        fatalError("No valid outputs")
     }
-    fatalError("No valid outputs")
+
+    func twoSum1(_ nums: [Int], _ target: Int) -> [Int] {
+        var numMap = [Int: Int]()
+        for (index, value) in nums.enumerated() {
+            if let matchIndex = numMap[target - value] {
+                return [matchIndex, index]
+            }
+            numMap[value] = index
+        }
+        fatalError("No valid outputs")
+    }
 }
 
-func twoSum1(_ nums: [Int], _ target: Int) -> [Int] {
-    var numMap = [Int: Int]()
-    for (index, value) in nums.enumerated() {
-        if let matchIndex = numMap[target - value] {
-            return [matchIndex, index]
-        }
-        numMap[value] = index
-    }
-    fatalError("No valid outputs")
-}
