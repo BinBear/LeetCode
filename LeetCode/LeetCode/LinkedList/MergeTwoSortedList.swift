@@ -19,26 +19,43 @@ public class ListNode {
 
 class MergeTwoSortedList {
 
-    func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
+    func mergeTwoLists1(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
         var l1 = list1
         var l2 = list2
         
-        var prel: ListNode?
-        let prehead = ListNode(-1)
-        prel = prehead
+        let dummyNode = ListNode()
+        var node: ListNode? = dummyNode
         
-        while l1 != nil && l2 != nil {
+        while l1 != nil, l2 != nil {
             if (l1?.val)! <= (l2?.val)! {
-                prel?.next = l1
+                node?.next = l1
                 l1 = l1?.next
             }else {
-                prel?.next = l2
+                node?.next = l2
                 l2 = l2?.next
             }
+            node = node?.next
         }
         
-        prel?.next = l1 ?? l2
+        node?.next = l1 ?? l2
         
-        return prehead.next
+        return dummyNode.next
+    }
+    
+    
+    func mergeTwoLists2(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
+        
+        guard let l1 = list1 else { return list2 }
+        guard let l2 = list2 else { return list1 }
+        
+        if l1.val < l2.val {
+            l1.next = mergeTwoLists2(l1.next, l2)
+            return l1
+        }else {
+            l2.next = mergeTwoLists2(l1, l2.next)
+            return l2
+        }
     }
 }
+
+
