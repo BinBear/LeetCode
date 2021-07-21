@@ -5,6 +5,10 @@
 //  Created by vin on 2021/7/21.
 //
 
+/*
+ 最长回文子串
+ 一个字符串 s，找到 s 中最长的回文子串
+ */
 
 class LongestPalindrome {
 

@@ -5,7 +5,9 @@
 //  Created by vin on 2021/7/20.
 //
 
-import UIKit
+/*
+ 反转链表
+ */
 
 class ReverseList {
 
