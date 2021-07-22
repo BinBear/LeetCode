@@ -19,6 +19,7 @@
 		20175E9626A6B00600DA0E25 /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20175E9526A6B00600DA0E25 /* ReverseList.swift */; };
 		20175F3026A7EBA000DA0E25 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20175F2F26A7EBA000DA0E25 /* LongestPalindrome.swift */; };
 		20175F3226A803A200DA0E25 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20175F3126A803A200DA0E25 /* AddTwoNumbers.swift */; };
+		284C3CB026A9C0E500E7E191 /* StringAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CAF26A9C0E500E7E191 /* StringAtoi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		20175E9526A6B00600DA0E25 /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
 		20175F2F26A7EBA000DA0E25 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 		20175F3126A803A200DA0E25 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		284C3CAF26A9C0E500E7E191 /* StringAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAtoi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				20175F2F26A7EBA000DA0E25 /* LongestPalindrome.swift */,
+				284C3CAF26A9C0E500E7E191 /* StringAtoi.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				20175F3226A803A200DA0E25 /* AddTwoNumbers.swift in Sources */,
 				20175E9626A6B00600DA0E25 /* ReverseList.swift in Sources */,
 				20175F3026A7EBA000DA0E25 /* LongestPalindrome.swift in Sources */,
+				284C3CB026A9C0E500E7E191 /* StringAtoi.swift in Sources */,
 				20175D3D26A565BB00DA0E25 /* ViewController.swift in Sources */,
 				20175D3926A565BB00DA0E25 /* AppDelegate.swift in Sources */,
 				20175D5026A5680D00DA0E25 /* TwoSum.swift in Sources */,
