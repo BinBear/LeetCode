@@ -33,10 +33,8 @@ class StringAtoi {
         // 遍历字符串
         for (i, item) in strArray.enumerated() {
             if i == 0 {
-                if item.isNumber || item == "+" || item == "-" {
-                    resultStr.append(item)
-                    continue
-                }
+                resultStr.append(item)
+                continue
             }else {
                 if item.isNumber {
                     resultStr.append(item)
