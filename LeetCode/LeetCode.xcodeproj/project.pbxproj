@@ -20,6 +20,7 @@
 		20175F3026A7EBA000DA0E25 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20175F2F26A7EBA000DA0E25 /* LongestPalindrome.swift */; };
 		20175F3226A803A200DA0E25 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20175F3126A803A200DA0E25 /* AddTwoNumbers.swift */; };
 		201762E126AAAC7300DA0E25 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201762E026AAAC7300DA0E25 /* LongestCommonPrefix.swift */; };
+		201762E326AAC4E800DA0E25 /* RotateRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201762E226AAC4E800DA0E25 /* RotateRight.swift */; };
 		284C3CB026A9C0E500E7E191 /* StringAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CAF26A9C0E500E7E191 /* StringAtoi.swift */; };
 		284C3CB226A9D8A700E7E191 /* MergeKSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CB126A9D8A700E7E191 /* MergeKSortedList.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		20175F2F26A7EBA000DA0E25 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 		20175F3126A803A200DA0E25 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		201762E026AAAC7300DA0E25 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		201762E226AAC4E800DA0E25 /* RotateRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateRight.swift; sourceTree = "<group>"; };
 		284C3CAF26A9C0E500E7E191 /* StringAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAtoi.swift; sourceTree = "<group>"; };
 		284C3CB126A9D8A700E7E191 /* MergeKSortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeKSortedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +100,7 @@
 				20175E9526A6B00600DA0E25 /* ReverseList.swift */,
 				20175F3126A803A200DA0E25 /* AddTwoNumbers.swift */,
 				284C3CB126A9D8A700E7E191 /* MergeKSortedList.swift */,
+				201762E226AAC4E800DA0E25 /* RotateRight.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				20175D3B26A565BB00DA0E25 /* SceneDelegate.swift in Sources */,
 				20175D5326A56E3200DA0E25 /* MergeTwoSortedList.swift in Sources */,
 				20175E9426A6A90B00DA0E25 /* FindMedianSortedArrays.swift in Sources */,
+				201762E326AAC4E800DA0E25 /* RotateRight.swift in Sources */,
 				284C3CB226A9D8A700E7E191 /* MergeKSortedList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
