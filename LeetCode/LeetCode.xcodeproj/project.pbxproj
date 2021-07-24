@@ -23,6 +23,7 @@
 		201762E326AAC4E800DA0E25 /* RotateRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201762E226AAC4E800DA0E25 /* RotateRight.swift */; };
 		284C3CB026A9C0E500E7E191 /* StringAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CAF26A9C0E500E7E191 /* StringAtoi.swift */; };
 		284C3CB226A9D8A700E7E191 /* MergeKSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CB126A9D8A700E7E191 /* MergeKSortedList.swift */; };
+		284C3CB426AC65B800E7E191 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CB326AC65B800E7E191 /* ThreeSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		201762E226AAC4E800DA0E25 /* RotateRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateRight.swift; sourceTree = "<group>"; };
 		284C3CAF26A9C0E500E7E191 /* StringAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAtoi.swift; sourceTree = "<group>"; };
 		284C3CB126A9D8A700E7E191 /* MergeKSortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeKSortedList.swift; sourceTree = "<group>"; };
+		284C3CB326AC65B800E7E191 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				20175D4F26A5680D00DA0E25 /* TwoSum.swift */,
 				20175E9326A6A90B00DA0E25 /* FindMedianSortedArrays.swift */,
+				284C3CB326AC65B800E7E191 /* ThreeSum.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				284C3CB026A9C0E500E7E191 /* StringAtoi.swift in Sources */,
 				20175D3D26A565BB00DA0E25 /* ViewController.swift in Sources */,
 				20175D3926A565BB00DA0E25 /* AppDelegate.swift in Sources */,
+				284C3CB426AC65B800E7E191 /* ThreeSum.swift in Sources */,
 				20175D5026A5680D00DA0E25 /* TwoSum.swift in Sources */,
 				201762E126AAAC7300DA0E25 /* LongestCommonPrefix.swift in Sources */,
 				20175D3B26A565BB00DA0E25 /* SceneDelegate.swift in Sources */,
