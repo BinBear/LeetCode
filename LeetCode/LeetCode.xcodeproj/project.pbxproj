@@ -27,6 +27,7 @@
 		284C3CB426AC65B800E7E191 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CB326AC65B800E7E191 /* ThreeSum.swift */; };
 		284C3CB626ADB04500E7E191 /* HasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CB526ADB04500E7E191 /* HasCycle.swift */; };
 		284C3CB826AEF96C00E7E191 /* ThreeSumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CB726AEF96C00E7E191 /* ThreeSumClosest.swift */; };
+		284C3CDA26B1A2B300E7E191 /* DetectCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CD926B1A2B300E7E191 /* DetectCycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		284C3CB326AC65B800E7E191 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		284C3CB526ADB04500E7E191 /* HasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCycle.swift; sourceTree = "<group>"; };
 		284C3CB726AEF96C00E7E191 /* ThreeSumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosest.swift; sourceTree = "<group>"; };
+		284C3CD926B1A2B300E7E191 /* DetectCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				284C3CB126A9D8A700E7E191 /* MergeKSortedList.swift */,
 				201762E226AAC4E800DA0E25 /* RotateRight.swift */,
 				284C3CB526ADB04500E7E191 /* HasCycle.swift */,
+				284C3CD926B1A2B300E7E191 /* DetectCycle.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				284C3CB026A9C0E500E7E191 /* StringAtoi.swift in Sources */,
 				20175D3D26A565BB00DA0E25 /* ViewController.swift in Sources */,
 				20175D3926A565BB00DA0E25 /* AppDelegate.swift in Sources */,
+				284C3CDA26B1A2B300E7E191 /* DetectCycle.swift in Sources */,
 				284C3CB426AC65B800E7E191 /* ThreeSum.swift in Sources */,
 				20175D5026A5680D00DA0E25 /* TwoSum.swift in Sources */,
 				201762E126AAAC7300DA0E25 /* LongestCommonPrefix.swift in Sources */,
