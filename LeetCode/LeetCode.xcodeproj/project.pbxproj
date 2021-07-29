@@ -28,6 +28,7 @@
 		284C3CB626ADB04500E7E191 /* HasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CB526ADB04500E7E191 /* HasCycle.swift */; };
 		284C3CB826AEF96C00E7E191 /* ThreeSumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CB726AEF96C00E7E191 /* ThreeSumClosest.swift */; };
 		284C3CDA26B1A2B300E7E191 /* DetectCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CD926B1A2B300E7E191 /* DetectCycle.swift */; };
+		284C3CDC26B300EB00E7E191 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C3CDB26B300EB00E7E191 /* RemoveDuplicates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		284C3CB526ADB04500E7E191 /* HasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCycle.swift; sourceTree = "<group>"; };
 		284C3CB726AEF96C00E7E191 /* ThreeSumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosest.swift; sourceTree = "<group>"; };
 		284C3CD926B1A2B300E7E191 /* DetectCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCycle.swift; sourceTree = "<group>"; };
+		284C3CDB26B300EB00E7E191 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				20175E9326A6A90B00DA0E25 /* FindMedianSortedArrays.swift */,
 				284C3CB326AC65B800E7E191 /* ThreeSum.swift */,
 				284C3CB726AEF96C00E7E191 /* ThreeSumClosest.swift */,
+				284C3CDB26B300EB00E7E191 /* RemoveDuplicates.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				20175D3B26A565BB00DA0E25 /* SceneDelegate.swift in Sources */,
 				284C3CB826AEF96C00E7E191 /* ThreeSumClosest.swift in Sources */,
 				20175D5326A56E3200DA0E25 /* MergeTwoSortedList.swift in Sources */,
+				284C3CDC26B300EB00E7E191 /* RemoveDuplicates.swift in Sources */,
 				284C3CB626ADB04500E7E191 /* HasCycle.swift in Sources */,
 				20175E9426A6A90B00DA0E25 /* FindMedianSortedArrays.swift in Sources */,
 				201762E326AAC4E800DA0E25 /* RotateRight.swift in Sources */,
